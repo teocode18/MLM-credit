@@ -5,7 +5,6 @@ from sklearn.preprocessing import LabelEncoder
 from xgboost import XGBClassifier
 import matplotlib.pyplot as plt
 import seaborn as sns
-import joblib   # NEW: to save the model
 
 # 1. Load training data
 train = pd.read_csv("train.csv").sample(10000, random_state=42)
@@ -91,15 +90,6 @@ plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.title("Confusion Matrix - Tuned XGBoost (Fast Mode)")
 plt.show()
-
-# 10. Save the best model for future use
-joblib.dump(best_model, "xgb_best_model.pkl")
-print("\n💾 Model saved as xgb_best_model.pkl")
-
-# --- HOW TO LOAD LATER (in another notebook or session) ---
-# loaded_model = joblib.load("xgb_best_model.pkl")
-# preds = loaded_model.predict(X_val)
-
 
 
 
