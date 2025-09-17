@@ -12,7 +12,6 @@ The dataset contains various features such as **Outstanding Debt**, **Total EMI 
 - **Hyperparameter optimization** using **RandomizedSearchCV**.
 - **Model evaluation** using **classification report** and **confusion matrix**.
 - **Feature importance visualization** to identify key predictive features.
-- **SHAP (Shapley Additive Explanations)** for model interpretability (optional).
 - Model saving for future use (saved as `xgb_best_model.pkl`).
 
 ## Dataset:
@@ -36,7 +35,12 @@ The dataset contains various features such as **Outstanding Debt**, **Total EMI 
 
 <img width="410" height="254" alt="featureimportance" src="https://github.com/user-attachments/assets/39993adc-ff75-4dc8-a8db-729af790779f" />
 
-
+## Insights
+### The top three features contributing the most to predicting credit scores are:
+### - Outstanding Debt: This is likely a major factor, as the more debt someone has, the more likely they are to have a lower credit score.
+### - Total EMI per month: The monthly EMI payments would directly influence the ability to repay loans, impacting credit score.
+### - Changed Credit Limit: This could indicate credit behavior changes and how credit limits impact score predictions
+#### The plot suggests that these financial factors are key indicators of creditworthiness, as expected
 
 
 
