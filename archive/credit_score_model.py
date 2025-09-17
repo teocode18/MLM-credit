@@ -1,11 +1,13 @@
+import matplotlib.pyplot as plt
+import xgboost as xgb
 import pandas as pd
 from sklearn.model_selection import train_test_split, RandomizedSearchCV
-from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
 from sklearn.preprocessing import LabelEncoder
 from xgboost import XGBClassifier
 import matplotlib.pyplot as plt
 import seaborn as sns
-import joblib   # NEW: to save the model
+import joblib  # To save the model
 
 # 1. Load training data
 train = pd.read_csv("train.csv").sample(10000, random_state=42)
@@ -90,9 +92,22 @@ sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.title("Confusion Matrix - Tuned XGBoost (Fast Mode)")
+
+# Show the plot
 plt.show()
 
-# 10. Save the best model for future use
+# Save the confusion matrix plot as PNG (for portfolio/CV)
+plt.savefig("confusion_matrix.png")
+
+
+# 10. Feature Importance
+xgb.plot_importance(best_model, importance_type="weight", max_num_features=10)
+plt.show()
+
+# Save feature importance plot as PNG (for portfolio/CV)
+plt.savefig("feature_importance.png")
+
+# 11. Save the best model for future use
 joblib.dump(best_model, "xgb_best_model.pkl")
 print("\n💾 Model saved as xgb_best_model.pkl")
 
