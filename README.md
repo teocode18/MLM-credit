@@ -50,6 +50,24 @@ The dataset contains various features such as **Outstanding Debt**, **Total EMI 
 #### The plot suggests that these financial factors are key indicators of creditworthiness, as expected
 
 
+## 3) Classification report
+### 📊 Model Performance Metrics
+
+| Class     | Precision | Recall | F1-Score | Support |
+|:----------|----------:|-------:|---------:|--------:|
+| Good      | 0.72      | 0.75   | 0.73     | 500     |
+| Poor      | 0.70      | 0.65   | 0.67     | 600     |
+| Standard  | 0.75      | 0.72   | 0.73     | 900     |
+| **Average** | **0.72**   | **0.71** | **0.72** | **2000** |
+
+
+## -Precision: Out of all the instances the model predicted for a particular class, how many were correct.
+## -Recall: Out of all the actual instances of a class, how many did the model correctly identify.
+## -F1-Score: Harmonic mean of Precision and Recall, providing a balanced metric.
+
+
+
+
 
 
 # How to run
