@@ -1,8 +1,4 @@
 
-
-
-
-
 # Credit Score Prediction (XGBoost)
 
 ## Overview
@@ -41,8 +37,6 @@ The model performance will be displayed in the notebook, including a confusion m
 Saved model file (xgb_best_model.pkl) for future use.
 
 
-
-
 ## Installation and Requirements:
 To run the project locally, make sure you have the following Python libraries installed:
 - `pandas`
@@ -56,6 +50,12 @@ To run the project locally, make sure you have the following Python libraries in
 You can install the dependencies using `pip`:
 ```bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
+
+
+
+
+
+
 
 
 
