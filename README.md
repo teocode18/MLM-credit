@@ -137,7 +137,7 @@ The classification report provides the following metrics for each class: **Preci
 
 
 
-    # Overall Conclusion
+ # Overall Conclusion
 
 The XGBoost model demonstrates **solid performance** in predicting credit scores, achieving around **72% accuracy**.  
 
@@ -160,7 +160,7 @@ The XGBoost model demonstrates **solid performance** in predicting credit scores
 
 ---
 
-### ✅ Final Insight
+### Final Insight
 The model is a **strong baseline** for credit score prediction, showing both **interpretability** (via feature importance) and **reliable accuracy**.  
 However, improvements can be made by:  
 - Addressing class imbalance (especially for **Poor** class).  
