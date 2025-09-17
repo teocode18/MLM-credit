@@ -141,7 +141,7 @@ The classification report provides the following metrics for each class: **Preci
 
 The XGBoost model demonstrates **solid performance** in predicting credit scores, achieving around **72% accuracy**.  
 
-### 🔹 Key Takeaways:
+### Key Takeaways:
 1. **Confusion Matrix**  
    - The model performs well overall but struggles to clearly separate **Good** and **Standard** credit scores.  
    - Most misclassifications occur between these two classes, which is expected due to their similarity in real-world financial behavior.  
