@@ -24,6 +24,34 @@ The dataset contains various features such as **Outstanding Debt**, **Total EMI 
   - **Other features**: Various financial attributes related to the customer.
  
 
+# Visualisations:
+## 1) Confusion matrix
+### The confusion matrix plot shows how well the model predicts each class (Good, Poor, Standard). Here is an example of the output:
+
+<img width="277" height="215" alt="confusionmatrix" src="https://github.com/user-attachments/assets/8d4590d1-f173-40f8-a3cd-533ec8ea5fc0" />
+
+
+## 2) Feature importance:
+### The feature importance plot shows the most important features that contribute to the model's predictions. For instance:
+
+<img width="410" height="254" alt="featureimportance" src="https://github.com/user-attachments/assets/39993adc-ff75-4dc8-a8db-729af790779f" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # How to run
 ## Clone the repository to your local machine:
 git clone https://github.com/your-username/credit-score-prediction.git
