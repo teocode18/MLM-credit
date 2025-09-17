@@ -93,6 +93,7 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
 ### -Precision: Out of all the instances the model predicted for a particular class, how many were correct.
 ### -Recall: Out of all the actual instances of a class, how many did the model correctly identify.
 ### -F1-Score: Harmonic mean of Precision and Recall, providing a balanced metric.
+### -Support: The number of actual samples of each class in the dataset (e.g., 500 Good, 600 Poor, 900 Standard = 2000 total)  
 
 ## Key Metrics:
 
