@@ -51,21 +51,6 @@ The dataset contains various features such as **Outstanding Debt**, **Total EMI 
 
 
 
-The model correctly predicted a high percentage of instances in each class, with accuracy around 72%.
-
-Key observations: While the model is performing well, there is room to improve its ability to distinguish between "Good" and "Standard" categories, which may be beneficial for fine-tuning and optimization.
-
-
-
-
-
-
-
-
-
-
-
-
 
 # How to run
 ## Clone the repository to your local machine:
@@ -93,6 +78,10 @@ To run the project locally, make sure you have the following Python libraries in
 You can install the dependencies using `pip`:
 bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
+
+
+
+
 
 
 
