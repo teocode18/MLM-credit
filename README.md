@@ -56,7 +56,7 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
 ## 1) Confusion matrix
 ### The confusion matrix plot shows how well the model predicts each class (Good, Poor, Standard). Here is an example of the output:
 
-<img width="277" height="215" alt="confusionmatrix" src="https://github.com/user-attachments/assets/8d4590d1-f173-40f8-a3cd-533ec8ea5fc0" />
+<img width="410" height="254" alt="confusionmatrix" src="https://github.com/user-attachments/assets/8d4590d1-f173-40f8-a3cd-533ec8ea5fc0" />
 
 ## Insights
 ### Rows represent actual classes (true labels), columns represent predicted classes (predicted labels), the values in the matrix are the counts of instances.
