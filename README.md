@@ -28,6 +28,7 @@ The dataset contains various features such as **Outstanding Debt**, **Total EMI 
 ### The confusion matrix plot shows how well the model predicts each class (Good, Poor, Standard). Here is an example of the output:
 
 <img width="277" height="215" alt="confusionmatrix" src="https://github.com/user-attachments/assets/8d4590d1-f173-40f8-a3cd-533ec8ea5fc0" />
+
 ## Insights
 ### Rows represent actual classes (true labels), columns represent predicted classes (predicted labels), the values in the matrix are the counts of instances.
 ### -Good Class: The model correctly identified 234 instances as Good, but it did misclassify 110 as Standard and 6 as Poor.
