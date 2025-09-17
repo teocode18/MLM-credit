@@ -135,7 +135,7 @@ The classification report provides the following metrics for each class: **Preci
 - **F1-Score**: `0.74`  
   - **Insight**: The **F1-Score** for the **Standard** class is **0.74**, which suggests a **balanced performance** in terms of both **precision** and **recall**.
 
-
+---
 
  # Overall Conclusion
 
