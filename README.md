@@ -36,3 +36,11 @@ To run the project locally, make sure you have the following Python libraries in
 You can install the dependencies using `pip`:
 ```bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
+
+
+#How to Run:
+
+## Clone the repository to your local machine:
+
+git clone https://github.com/your-username/credit-score-prediction.git
+cd credit-score-prediction
