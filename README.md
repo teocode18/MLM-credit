@@ -1,4 +1,8 @@
 
+
+
+
+
 # Credit Score Prediction (XGBoost)
 
 ## Overview
@@ -22,6 +26,22 @@ The dataset contains various features such as **Outstanding Debt**, **Total EMI 
   - **Total_EMI_per_month**: Total monthly EMI (Equated Monthly Installment).
   - **Annual_Income**: Annual income of the customer.
   - **Other features**: Various financial attributes related to the customer.
+ 
+
+# How to run
+## Clone the repository to your local machine:
+git clone https://github.com/your-username/credit-score-prediction.git
+cd credit-score-prediction
+
+## run the Python script:
+python credit_score_model.py
+
+# Check for results:
+The model performance will be displayed in the notebook, including a confusion matrix and feature importance.
+Saved model file (xgb_best_model.pkl) for future use.
+
+
+
 
 ## Installation and Requirements:
 To run the project locally, make sure you have the following Python libraries installed:
@@ -38,9 +58,6 @@ You can install the dependencies using `pip`:
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
 
 
-#How to Run:
 
-## Clone the repository to your local machine:
 
-git clone https://github.com/your-username/credit-score-prediction.git
-cd credit-score-prediction
+
