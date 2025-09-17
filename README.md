@@ -23,6 +23,35 @@ The dataset contains various features such as **Outstanding Debt**, **Total EMI 
   - **Other features**: Various financial attributes related to the customer.
  
 
+# How to run
+## Clone the repository to your local machine:
+git clone https://github.com/your-username/credit-score-prediction.git
+cd credit-score-prediction
+
+## run the Python script:
+python credit_score_model.py
+
+# Check for results:
+The model performance will be displayed in the notebook, including a confusion matrix and feature importance.
+Saved model file (xgb_best_model.pkl) for future use.
+
+
+## Installation and Requirements:
+To run the project locally, make sure you have the following Python libraries installed:
+- `pandas`
+- `numpy`
+- `scikit-learn`
+- `xgboost`
+- `matplotlib`
+- `seaborn`
+- `joblib`
+
+You can install the dependencies using `pip`:
+bash
+pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
+
+
+
 # Visualisations:
 ## 1) Confusion matrix
 ### The confusion matrix plot shows how well the model predicts each class (Good, Poor, Standard). Here is an example of the output:
@@ -105,37 +134,12 @@ The classification report provides the following metrics for each class: **Preci
 - **F1-Score**: `0.74`  
   - **Insight**: The **F1-Score** for the **Standard** class is **0.74**, which suggests a **balanced performance** in terms of both **precision** and **recall**.
 
----
 
 
 
 
-# How to run
-## Clone the repository to your local machine:
-git clone https://github.com/your-username/credit-score-prediction.git
-cd credit-score-prediction
-
-## run the Python script:
-python credit_score_model.py
-
-# Check for results:
-The model performance will be displayed in the notebook, including a confusion matrix and feature importance.
-Saved model file (xgb_best_model.pkl) for future use.
 
 
-## Installation and Requirements:
-To run the project locally, make sure you have the following Python libraries installed:
-- `pandas`
-- `numpy`
-- `scikit-learn`
-- `xgboost`
-- `matplotlib`
-- `seaborn`
-- `joblib`
-
-You can install the dependencies using `pip`:
-bash
-pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
 
 
 
