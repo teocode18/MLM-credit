@@ -76,8 +76,9 @@ To run the project locally, make sure you have the following Python libraries in
 - `joblib`
 
 You can install the dependencies using `pip`:
-```bash
+bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
+
 
 
 
