@@ -116,37 +116,37 @@ The classification report provides the following metrics for each class: **Preci
 ### Class-Specific Metrics:
 
 #### **Good Class**:
-- **Precision**: `0.75`  
+- **Precision**: `0.72`  
   - **Insight**: The model correctly predicted 72% of instances labeled as **Good**. This suggests that the model is fairly reliable when predicting a **Good credit score**.
 
-- **Recall**: `0.80`  
+- **Recall**: `0.75`  
   - **Insight**: The model identified 75% of the actual **Good** instances. This means the model is missing **25%** of all the **Good** instances. The model is doing well but could be improved to catch the remaining **20%**.
 
-- **F1-Score**: `0.77`  
+- **F1-Score**: `0.73`  
   - **Insight**: The **F1-Score** balances **precision** and **recall**. An F1-Score of **0.73** indicates that the model performs reasonably well on the **Good class** and has a good balance between **precision** and **recall**.
 
 ---
 
 #### **Poor Class**:
-- **Precision**: `0.68`  
+- **Precision**: `0.70`  
   - **Insight**: The model correctly predicted 70% of instances labeled as **Poor**. While the precision is decent, **30%** of instances predicted as **Poor** were incorrectly classified as **Good** or **Standard**. This indicates that the model struggles with predicting **Poor** credit scores.
 
-- **Recall**: `0.60`  
+- **Recall**: `0.65`  
   - **Insight**: The model identified **65%** of the actual **Poor** instances. This suggests the model is missing **35%** of the **Poor** cases, indicating that **Poor credit scores** are more likely to be misclassified as **Good** or **Standard**. This is an area for improvement.
 
-- **F1-Score**: `0.64`  
+- **F1-Score**: `0.67`  
   - **Insight**: The **F1-Score** for the **Poor class** is **0.67**, which is lower compared to the **Good class**. This reflects the imbalance between **precision** and **recall**, meaning the model is either missing many **Poor instances** or incorrectly predicting others as **Poor**.
 
 ---
 
 #### **Standard Class**:
-- **Precision**: `0.73`  
+- **Precision**: `0.75`  
   - **Insight**: The model correctly predicted **75%** of instances labeled as **Standard**. This suggests the model is fairly good at distinguishing between **Standard** credit scores, though there is still some margin for error.
 
-- **Recall**: `0.75`  
+- **Recall**: `0.72`  
   - **Insight**: The model correctly identified **72%** of the actual **Standard** instances. This is a strong **recall** value, meaning the model is good at catching **Standard** instances, but it still misses **28%** of them. Further optimization could improve recall for this class as well.
 
-- **F1-Score**: `0.74`  
+- **F1-Score**: `0.73`  
   - **Insight**: The **F1-Score** for the **Standard** class is **0.73**, which suggests a **balanced performance** in terms of both **precision** and **recall**.
 
 ---
