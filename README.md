@@ -117,13 +117,13 @@ The classification report provides the following metrics for each class: **Preci
 
 #### **Good Class**:
 - **Precision**: `0.75`  
-  - **Insight**: The model correctly predicted 75% of instances labeled as **Good**. This suggests that the model is fairly reliable when predicting a **Good credit score**.
+  - **Insight**: The model correctly predicted 72% of instances labeled as **Good**. This suggests that the model is fairly reliable when predicting a **Good credit score**.
 
 - **Recall**: `0.80`  
-  - **Insight**: The model identified 80% of the actual **Good** instances. This means the model is missing **20%** of all the **Good** instances. The model is doing well but could be improved to catch the remaining **20%**.
+  - **Insight**: The model identified 75% of the actual **Good** instances. This means the model is missing **20%** of all the **Good** instances. The model is doing well but could be improved to catch the remaining **20%**.
 
 - **F1-Score**: `0.77`  
-  - **Insight**: The **F1-Score** balances **precision** and **recall**. An F1-Score of **0.77** indicates that the model performs reasonably well on the **Good class** and has a good balance between **precision** and **recall**.
+  - **Insight**: The **F1-Score** balances **precision** and **recall**. An F1-Score of **0.73** indicates that the model performs reasonably well on the **Good class** and has a good balance between **precision** and **recall**.
 
 ---
 
