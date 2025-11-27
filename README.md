@@ -54,16 +54,26 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
 
 # Visualisations:
 ## 1) Confusion matrix
-### The confusion matrix plot shows how well the model predicts each class (Good, Poor, Standard). Here is an example of the output:
+ The confusion matrix plot shows how well the model predicts each class (Good, Poor, Standard). Here is an example of the output:
 
 <img width="410" height="254" alt="confusionmatrix" src="https://github.com/user-attachments/assets/8d4590d1-f173-40f8-a3cd-533ec8ea5fc0" />
 
-## Insights
-### Rows represent actual classes (true labels), columns represent predicted classes (predicted labels), the values in the matrix are the counts of instances.
-### -Good Class: The model correctly identified 234 instances as Good, but it did misclassify 110 as Standard and 6 as Poor.
-### -Poor Class: The model identified 389 instances as Poor, but 39 instances were misclassified as Good, and 161 as Standard.
-### -Standard Class: The model predicted 808 instances correctly as Standard, though some instances of Good (111) and Poor (142) were misclassified as Standard.
-#### The model correctly predicted a high percentage of instances in each class, with accuracy around 72%. While the model is performing well, there is room to improve its ability to distinguish between "Good" and "Standard" categories. The misclassifications are expected in real-world scenarios and could be improved with further tuning and balancing.
+### **Insights**
+- **Good Class:**  
+- Correctly predicted **234** instances  
+- Misclassified mainly as Standard (110), a smaller number as Poor (6)
+
+- **Poor Class:**  
+- Correctly predicted **389**  
+- Misclassified as Good (39) or Standard (161)
+
+- **Standard Class:**  
+- Correctly predicted **808**  
+- Misclassified as Good (111) and Poor (142)
+
+### **Interpretation**
+The model performs well overall but struggles to fully separate **Good** and **Standard** due to similar patterns in real-world behaviour.
+
 
 
 ## 2) Feature importance:
