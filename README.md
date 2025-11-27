@@ -74,20 +74,24 @@ pip install pandas numpy scikit-learn xgboost matplotlib seaborn joblib
 ### **Interpretation**
 The model performs well overall but struggles to fully separate **Good** and **Standard** due to similar patterns in real-world behaviour.
 
+---
 
+## **2. Feature Importance**
 
-## 2) Feature importance:
-### The feature importance plot shows the most important features that contribute to the model's predictions. For instance:
+### **Top Features**
+- **Outstanding Debt**  
+Largest influence on creditworthiness — high debt correlates with lower scores.
 
-<img width="410" height="254" alt="featureimportance" src="https://github.com/user-attachments/assets/39993adc-ff75-4dc8-a8db-729af790779f" />
+- **Total EMI per Month**  
+Indicates financial burden → affects ability to maintain good credit behaviour.
 
-## Insights
-### The top three features contributing the most to predicting credit scores are:
-### - Outstanding Debt: This is likely a major factor, as the more debt someone has, the more likely they are to have a lower credit score.
-### - Total EMI per month: The monthly EMI payments would directly influence the ability to repay loans, impacting credit score.
-### - Changed Credit Limit: This could indicate credit behavior changes and how credit limits impact score predictions
-#### The plot suggests that these financial factors are key indicators of creditworthiness, as expected
+- **Changed Credit Limit**  
+Reflects behavioural changes in credit usage.
 
+### **Interpretation**
+The model relies on features closely aligned with how financial institutions evaluate risk, indicating strong interpretability.
+
+---
 
 ## 3) Classification report
 ### 📊 Model Performance Metrics
